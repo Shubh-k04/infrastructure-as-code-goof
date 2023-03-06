@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.12.0a5-slim
 RUN apt-get update -y
 RUN apt-get install stress-ng -y
 COPY ./app /app
