@@ -1,4 +1,4 @@
-FROM php:8.0-cli
+FROM php:cli-buster
 
 # Create a non-root user and set the working directory
 RUN adduser -D myuser
