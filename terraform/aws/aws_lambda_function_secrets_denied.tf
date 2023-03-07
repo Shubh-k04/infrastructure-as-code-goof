@@ -1,15 +1,14 @@
 resource "aws_lambda_function" "denied" {
   environment {
     variables = {
-      password = "REDACTED" 
+
     }
   }
 }
 
 resource "aws_lambda_function" "denied_2" {
   environment {
-    variables = {
-      private_key = "REDACTED" 
+    variables = {=
     }
   }
 }
